@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        form {
+            width: 300px;
+        }
+        input {
+            margin: 5px;
+        }
+        h1, p {
+            text-align: center;
+        }
+        form {
+            margin: auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+</head>
+<body>
+  <center><h1>Sign Up Form</h1></center>  
+  <p>Fill the form with correct information</p>
+  <form action="server URL">
+    <fieldset>
+        <label for="Firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" required>
+        <label for="Lastname">Last Name</label>
+        <input type="txt" id="Lastname" name="Lastname" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" min="8" max="20" required>
+        <label for="number">Number:</label>
+
+        <input type="number" id="number" name="number" required>
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="male" name="gender" required>male
+        <input type="radio" id="female" name="gender" required>female
+        <input type="radio" id="other" name="gender">other
+        <label for="date">Date:</label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="file">Upload Picture </label><br>
+        <input type="file" id="uploadpicture" name="uploadpicture" required>
+        <input type="submit" value="submit">
+
+
+    </fieldset>
+  </form>
+</body>
+</html>
